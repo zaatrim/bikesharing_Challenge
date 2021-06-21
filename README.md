@@ -10,24 +10,24 @@ In this Analysis I will help Kate to perform an Analysis for CitiBike Sharing in
 ### Analysis
 1st step of the analysis, I need to use Pandas to Change Trip Duration to a Datetime Format. 
 
-import pandas as pd
-# 1. Create a DataFrame for the 201908-citibike-tripdata data. 
+            import pandas as pd
+            # 1. Create a DataFrame for the 201908-citibike-tripdata data. 
 
-# File to Load (Remember to change the path if needed.)
-citibike_data_to_load = "Resources/201908-citibike-tripdata.csv"
+            # File to Load (Remember to change the path if needed.)
+            citibike_data_to_load = "Resources/201908-citibike-tripdata.csv"
 
-# Read the 201908-citibike-tripdata data and store into a Pandas DataFrame
-citibike_tripdata_data_df = pd.read_csv(citibike_data_to_load)
-# Check top 10 Raws.
-citibike_tripdata_data_df.head(10)
+            # Read the 201908-citibike-tripdata data and store into a Pandas DataFrame
+            citibike_tripdata_data_df = pd.read_csv(citibike_data_to_load)
+            # Check top 10 Raws.
+            citibike_tripdata_data_df.head(10)
 
-# 3. Convert the 'tripduration' column to datetime datatype.
+            # 3. Convert the 'tripduration' column to datetime datatype.
 
-citibike_tripdata_data_df['tripduration'] = pd.to_datetime(citibike_tripdata_data_df['tripduration'], unit = 's')
+            citibike_tripdata_data_df['tripduration'] = pd.to_datetime(citibike_tripdata_data_df['tripduration'], unit = 's')
 
-citibike_tripdata_data_df.head(10)
-# 4. Check the datatypes of your columns. 
-citibike_tripdata_data_df.dtypes
+            citibike_tripdata_data_df.head(10)
+            # 4. Check the datatypes of your columns. 
+            citibike_tripdata_data_df.dtypes
 
 Next steps I will Import the transformed Data to Tableau and start using Tableau to build the following analysis:
 
