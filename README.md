@@ -1,6 +1,6 @@
 # ** NYC CitiBike Ride Sharing Analysis
 
-
+[link to dashboard](https://public.tableau.com/app/profile/mikhail.zaatra/viz/NYC_CitiBike_Challenge_Analysis/NYCitiBikeStory)
 
 ## *Project Overview*
 In this Analysis I will help Kate to perform an Analysis for CitiBike Sharing in City—Des Moines. for this analysis I will use New York Citi Bike data that has been released to the public for your analysis. for conducting this analysis I will use Pandas Library to perform the ETL process on the Data.  and Then I will Use Tableau to Run the analysis and present the outcome through the Tableau Story module.
@@ -46,7 +46,19 @@ Once Done with all the above analysis I will Create a Story in Tableau ( the col
 ### Results ( All Key Take away are impeded in the Charts Caption)
 
 
+![checkout_time_for_users](https://user-images.githubusercontent.com/80013773/122722170-426d9480-d226-11eb-9058-a33d96f4ffa1.PNG)
 
+![checkouttimebygender](https://user-images.githubusercontent.com/80013773/122722175-439ec180-d226-11eb-97cf-69eef8d2bc90.PNG)
+
+![NYCitiBikeRideDistribution](https://user-images.githubusercontent.com/80013773/122722186-44cfee80-d226-11eb-803b-f020e5f7e46a.PNG)
+
+![Rides_Breakdown_By_Gender](https://user-images.githubusercontent.com/80013773/122722201-47cadf00-d226-11eb-9d07-73c6deb59abd.PNG)
+
+![TripsByGenderWeekday](https://user-images.githubusercontent.com/80013773/122722203-47cadf00-d226-11eb-8db4-a7666208f136.PNG)
+
+![TripsbyWeekdayforEachHour](https://user-images.githubusercontent.com/80013773/122722209-48fc0c00-d226-11eb-9f91-d8a07b335c7e.PNG)
+
+![UsersTripsByGender](https://user-images.githubusercontent.com/80013773/122722212-4994a280-d226-11eb-8637-ac3418f209bc.PNG)
 
     
 ## *Summary*
