@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+export_201908_citibike_tripdata.csv
+201908-citibike-tripdata.csv
+NYC_CitiBike_Challenge_Analysis.twbx
+
 # C extensions
 *.so
 
